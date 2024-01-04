@@ -14,8 +14,8 @@ const Calculator = () => {
             <h1 className='text-5xl text-white font-bold'>Calculator</h1>
             <div className='flex flex-col border-4 border-sky-500 h-4/5 w-96 rounded-lg bg-slate-300 my-5'>
                 <div className='flex h-16 w-30 border-4 border-sky-500 p-2 m-2 rounded-lg bg-slate-500 justify-end items-center text-white font-bold text-2xl'>
-                    <div className='flex flex-col'>
-                        <p>{previousOperand} </p>
+                    <div className='flex '>
+                        <p> {previousOperand} </p>
                         <p>{operation} {currentOperand}</p>
                     </div>
                 </div>
