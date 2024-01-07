@@ -1,6 +1,6 @@
 {
-  "homepage": "https://gilson96.github.io/calculator/",
   "name": "calculator",
+  "homepage": "https://Gilson96.github.io/calculator/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
