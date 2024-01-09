@@ -25,17 +25,17 @@ const Calculator = () => {
                         <OperationDigit operation="*" dispatch={dispatch} action={ACTIONS.CHOOSE_OPERATION} />
                         <OperationDigit operation="+" dispatch={dispatch} action={ACTIONS.CHOOSE_OPERATION} />
                         <OperationDigit operation="-" dispatch={dispatch} action={ACTIONS.CHOOSE_OPERATION} />
-                        <Digit digit="7" dispatch={dispatch} action={ACTIONS.ADD_DIGIT} />
-                        <Digit digit="8" dispatch={dispatch} action={ACTIONS.ADD_DIGIT} />
-                        <Digit digit="9" dispatch={dispatch} action={ACTIONS.ADD_DIGIT} />
-                        <Digit digit="4" dispatch={dispatch} action={ACTIONS.ADD_DIGIT} />
-                        <Digit digit="5" dispatch={dispatch} action={ACTIONS.ADD_DIGIT} />
-                        <Digit digit="6" dispatch={dispatch} action={ACTIONS.ADD_DIGIT} />
-                        <Digit digit="1" dispatch={dispatch} action={ACTIONS.ADD_DIGIT} />
-                        <Digit digit="2" dispatch={dispatch} action={ACTIONS.ADD_DIGIT} />
-                        <Digit digit="3" dispatch={dispatch} action={ACTIONS.ADD_DIGIT} />
-                        <Digit digit="0" dispatch={dispatch} action={ACTIONS.ADD_DIGIT} />
-                        <Digit digit="." dispatch={dispatch} action={ACTIONS.ADD_DIGIT} />
+                        <Digit digit="7" dispatch={dispatch} action={ACTIONS.ADD_DIGIT} inlineClass='bg-slate-50 '/>
+                        <Digit digit="8" dispatch={dispatch} action={ACTIONS.ADD_DIGIT} inlineClass='bg-slate-50 '/>
+                        <Digit digit="9" dispatch={dispatch} action={ACTIONS.ADD_DIGIT} inlineClass='bg-slate-50 '/>
+                        <Digit digit="4" dispatch={dispatch} action={ACTIONS.ADD_DIGIT} inlineClass='bg-slate-50 '/>
+                        <Digit digit="5" dispatch={dispatch} action={ACTIONS.ADD_DIGIT} inlineClass='bg-slate-50 '/>
+                        <Digit digit="6" dispatch={dispatch} action={ACTIONS.ADD_DIGIT} inlineClass='bg-slate-50 '/>
+                        <Digit digit="1" dispatch={dispatch} action={ACTIONS.ADD_DIGIT} inlineClass='bg-slate-50 '/>
+                        <Digit digit="2" dispatch={dispatch} action={ACTIONS.ADD_DIGIT} inlineClass='bg-slate-50 '/>
+                        <Digit digit="3" dispatch={dispatch} action={ACTIONS.ADD_DIGIT} inlineClass='bg-slate-50 '/>
+                        <Digit digit="0" dispatch={dispatch} action={ACTIONS.ADD_DIGIT} inlineClass='bg-slate-50 '/>
+                        <Digit digit="." dispatch={dispatch} action={ACTIONS.ADD_DIGIT} inlineClass='bg-slate-50 '/>
                         <Digit digit="AC" dispatch={dispatch} action={ACTIONS.CLEAR} inlineClass='w-24 bg-red-200' />
                         <Digit digit="DEL" dispatch={dispatch} action={ACTIONS.DELETE_DIGIT} inlineClass='w-24 bg-red-200'/>
                         <Digit digit="=" dispatch={dispatch} action={ACTIONS.EVALUATE} inlineClass='bg-red-200'/>
