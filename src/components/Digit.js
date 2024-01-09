@@ -1,9 +1,9 @@
 import React from 'react'
 import { ACTIONS } from '../components/Reducer'
 
-const Digit = ({ dispatch, digit}) => {
+const Digit = ({ dispatch, digit, inlineClass, action, pload}) => {
   return (
-    <button className='border-2 border-sky-500 rounded-lg p-2 bg-sky-300' onClick={() => dispatch({ type: ACTIONS.ADD_DIGIT, payload: { digit }})}>{digit}</button>
+    <button className={`flex rounded-full p-2 bg-slate-50 w-16 h-16 items-center justify-center ${inlineClass}`} onClick={() => dispatch({ type: action, payload: { digit }})}>{digit}</button>
   )
 }
 

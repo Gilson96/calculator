@@ -3,7 +3,7 @@ import Calculator from './components/Calculator';
 
 function App() {
   return (
-    <div className="flex justify-center items-center h-screen w-full flex-col bg-gradient-to-r from-sky-400 to-slate-300">
+    <div className="flex justify-center items-center h-full w-full flex-col bg-gray-500">
       <Calculator/>
     </div>
   );
